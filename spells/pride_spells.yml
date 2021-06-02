@@ -259,6 +259,7 @@ pride_flag_pan:
     target: self
     cooldown: 3000
   enabled: true
+
 pride_flag_trans:
   icon: light_blue_dye
   actions:
@@ -288,3 +289,54 @@ pride_flag_trans:
     target: self
     cooldown: 3000
   enabled: true
+
+pride_shop:
+  inherit: buyshop
+  parameters:
+    items:
+      - item: pride_block_wand
+        costs:
+          red_wool: 1
+      - item: pride_block_wand_bi
+        costs:
+          purple_wool: 1
+      - item: pride_block_wand_trans
+        costs:
+          light_blue_wool: 1
+      - item: pride_block_wand_pan
+        costs:
+          yellow_wool: 1
+      - item: pride_block_wand_lesbian
+        costs:
+          orange_wool: 1
+      - item: pride_block_wand_ace
+        costs:
+          black_wool: 1
+      - item: pride_block_wand_nb
+        costs:
+          white_wool: 1
+      - item: pride_flag_wand
+        costs:
+          ia_amethyst_prism: 1
+      - item: partyCannon
+        costs:
+          gunpowder: 2
+          paper: 1
+      - item: magicBoots_red
+        costs:
+          leather: 4
+      - item: magicBoots_orange
+        costs:
+          leather: 4
+      - item: magicBoots_yellow
+        costs:
+          leather: 4
+      - item: magicBoots_green
+        costs:
+          leather: 4
+      - item: magicBoots_blue
+        costs:
+          leather: 4
+      - item: magicBoots_purple
+        costs:
+          leather: 4

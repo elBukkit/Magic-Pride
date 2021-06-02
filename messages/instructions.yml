@@ -1,5 +1,7 @@
 examples:
-  price:
+  pride:
     instructions: |-
       &8| &c&nP&6R&eI&aD&dE &r
       &8| &f Let your pride flags fly! &r
+      &8| &f Use &7/mnpc add pride_shop&f &r
+      &8| &f To set up a shop NPC &r

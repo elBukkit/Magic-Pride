@@ -15,3 +15,5 @@ spells:
     name: Pan Pride Flag
   pride_flag_trans:
     name: Trans Pride Flag
+  pride_shop:
+    name: Pride Shop
