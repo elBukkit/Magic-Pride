@@ -1,0 +1,17 @@
+spells:
+  pride_flag_base:
+    name: Gay Pride Flag
+  pride_flag_bi:
+    name: Bi Pride Flag
+  pride_flag_ace:
+    name: Asexual Pride Flag
+  pride_flag_fluid:
+    name: Genderfluid Pride Flag
+  pride_flag_lesbian:
+    name: Lesbian Pride Flag
+  pride_flag_nb:
+    name: Nonbinary Pride Flag
+  pride_flag_pan:
+    name: Pan Pride Flag
+  pride_flag_trans:
+    name: Trans Pride Flag

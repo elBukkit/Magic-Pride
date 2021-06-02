@@ -1,0 +1,16 @@
+base_boots_red:
+  creator_id: 800a3f29-a0ec-420b-8add-afb5bcedc401
+  creator: thecornelia
+  worth: 0.0
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: LEATHER_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: LEATHER_ARMOR
+      color:
+        ==: Color
+        RED: 176
+        BLUE: 38
+        GREEN: 46

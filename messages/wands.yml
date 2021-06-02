@@ -1,0 +1,15 @@
+wands:
+  pride_block_wand:
+    name: '&4&lGay Pride Block'
+  pride_block_wand_bi:
+    name: '&5&lBi Pride Block'
+  pride_block_wand_trans:
+    name: '&b&lTrans Pride Block'
+  pride_block_wand_lesbian:
+    name: '&6&lLesbian Pride Block'
+  pride_block_wand_pan:
+    name: '&e&lPan Pride Block'
+  pride_block_wand_ace:
+    name: '&0&lAce Pride Block'
+  pride_block_wand_nb:
+    name: '&f&lNonbinary Pride Block'

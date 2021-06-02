@@ -1,0 +1,93 @@
+pride_block_wand:
+  icon: red_wool
+  right_click: cast
+  active_spell: pride_block_create
+  uses: 1
+pride_block_wand_bi:
+  inherit: pride_block_wand
+  icon: purple_wool
+  active_spell: pride_block_create_bi
+pride_block_wand_trans:
+  inherit: pride_block_wand
+  icon: light_blue_wool
+  active_spell: pride_block_create_trans
+pride_block_wand_lesbian:
+  inherit: pride_block_wand
+  icon: orange_wool
+  active_spell: pride_block_create_lesbian
+pride_block_wand_pan:
+  inherit: pride_block_wand
+  icon: yellow_wool
+  active_spell: pride_block_create_pan
+pride_block_wand_ace:
+  inherit: pride_block_wand
+  icon: black_wool
+  active_spell: pride_block_create_ace
+pride_block_wand_nb:
+  inherit: pride_block_wand
+  icon: white_wool
+  active_spell: pride_block_create_nb
+pride_flag_wand:
+  icon: honeycomb
+  name: Totem of Pride
+  mode: inventory
+  right_click: toggle
+  left_click: cast
+  indestructible: true
+  hotbar_count: 1
+  spells:
+  - pride_flag_base
+  - pride_flag_bi
+  - pride_flag_trans
+  - pride_flag_lesbian
+  - pride_flag_pan
+  - pride_flag_ace
+  - pride_flag_nb
+partyCannon:
+  icon: flint_and_steel
+  name: Party Cannon
+  inherit: base_gun
+  active_spell: flare
+  alternate_spell: confettishop
+  mana: 100
+  mana_max: 100
+  mana_regeneration: 2
+magicBoots_red:
+  icon: base_boots_red
+  indestructible: true
+  mana_max_boost: 0.1
+  name: Red boots
+  effect_particle_offset: -1.5
+  protection_physical: 0.25
+  effect_color: FF0000
+  effect_particle: redstone
+  effect_particle_count: 20
+  effect_particle_interval: 125
+  effect_particle_radius: 0.25
+  keep: true
+  locked: true
+magicBoots_orange:
+  inherit: magicBoots_red
+  icon: base_boots_orange
+  name: Orange Boots
+  effect_color: FF7F00
+magicBoots_yellow:
+  inherit: magicBoots_red
+  icon: base_boots_yellow
+  name: Yellow Boots
+  effect_color: FFFF00
+magicBoots_green:
+  inherit: magicBoots_red
+  icon: base_boots_green
+  name: Green Boots
+  effect_color: 00FF00
+magicBoots_blue:
+  inherit: magicBoots_red
+  icon: base_boots_blue
+  name: Blue Boots
+  effect_color: 0000FF
+magicBoots_purple:
+  inherit: magicBoots_red
+  icon: base_boots_purple
+  name: Purple Boots
+  effect_color: 8B00FF

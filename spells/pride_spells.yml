@@ -1,0 +1,290 @@
+pride_block_create:
+    icon: red_wool
+    icon_disabled: red_wool
+    cast_on_no_target: false
+    actions:
+        cast:
+        - class: ChangeContext
+          target_attachment: true
+          actions:
+          - class: ModifyBlock
+          - class: CreateAutomaton
+    parameters:
+        target: block
+        range: 4
+        allow_max_range: false
+        automaton: pride_block_auto
+        destructible: all_air
+        brush: red_wool
+pride_block_create_bi:
+    inherit: pride_block_create
+    icon: purple_wool
+    parameters:
+        automaton: pride_block_auto_bi
+        brush: purple_wool
+pride_block_create_trans:
+    inherit: pride_block_create
+    icon: light_blue_wool
+    parameters:
+        automaton: pride_block_auto_trans
+        brush: light_blue_wool
+pride_block_create_lesbian:
+    inherit: pride_block_create
+    icon: orange_wool
+    parameters:
+        automaton: pride_block_auto_lesbian
+        brush: orange_wool
+pride_block_create_pan:
+    inherit: pride_block_create
+    icon: yellow_wool
+    parameters:
+        automaton: pride_block_auto_pan
+        brush: yellow_wool
+pride_block_create_ace:
+    inherit: pride_block_create
+    icon: black_wool
+    parameters:
+        automaton: pride_block_auto_ace
+        brush: black_wool
+pride_block_create_nb:
+    inherit: pride_block_create
+    icon: white_wool
+    parameters:
+        automaton: pride_block_auto_nb
+        brush: white_wool
+pride_flag_base:
+  icon: red_dye
+  name: Gay Pride Flag
+  actions:
+    cast:
+    - class: PlayEffects
+      effect: pride
+      ignore_result: true
+  effects:
+    pride:
+    - class: EffectSingle
+      location: target
+      target_offset: 0,1.2,0
+      orient: true
+      effectlib:
+        class: Modified
+        iterations: 150
+        parameters:
+          size: max(0, (1 / 2) * 5 - 3) + 0.2
+        effect:
+          enable_rotation: true
+          class: ColoredImageEffect
+          fileName: https://i.imgur.com/TxDkPZ6.png
+          stepX: 1
+          stepY: 1
+          transparency: true
+  parameters:
+    target: self
+    cooldown: 3000
+  enabled: true
+pride_flag_bi:
+  icon: purple_dye
+  name: Bi Pride Flag
+  actions:
+    cast:
+    - class: PlayEffects
+      effect: pride
+      ignore_result: true
+  effects:
+    pride:
+    - class: EffectSingle
+      location: target
+      target_offset: 0,1.2,0
+      orient: true
+      effectlib:
+        class: Modified
+        iterations: 150
+        parameters:
+          size: max(0, (1 / 2) * 5 - 3) + 0.2
+        effect:
+          enable_rotation: true
+          class: ColoredImageEffect
+          fileName: https://i.imgur.com/uztcZSO.png
+          stepX: 1
+          stepY: 1
+          transparency: true
+  parameters:
+    target: self
+    cooldown: 3000
+  enabled: true
+
+
+pride_flag_ace:
+  icon: black_dye
+  actions:
+    cast:
+    - class: PlayEffects
+      effect: pride
+      ignore_result: true
+  effects:
+    pride:
+    - class: EffectSingle
+      location: target
+      target_offset: 0,1.2,0
+      orient: true
+      effectlib:
+        class: Modified
+        iterations: 150
+        parameters:
+          size: max(0, (1 / 2) * 5 - 3) + 0.2
+        effect:
+          enable_rotation: true
+          class: ColoredImageEffect
+          fileName: https://i.imgur.com/9ezYfpr.png
+          stepX: 1
+          stepY: 1
+          transparency: true
+  parameters:
+    target: self
+    cooldown: 3000
+  enabled: true
+pride_flag_fluid:
+  icon: blue_dye
+  actions:
+    cast:
+    - class: PlayEffects
+      effect: pride
+      ignore_result: true
+  effects:
+    pride:
+    - class: EffectSingle
+      location: target
+      target_offset: 0,1.2,0
+      orient: true
+      effectlib:
+        class: Modified
+        iterations: 150
+        parameters:
+          size: max(0, (1 / 2) * 5 - 3) + 0.2
+        effect:
+          enable_rotation: true
+          class: ColoredImageEffect
+          fileName: https://i.imgur.com/ns2LKfQ.png
+          stepX: 1
+          stepY: 1
+          transparency: true
+  parameters:
+    target: self
+    cooldown: 3000
+  enabled: true
+pride_flag_lesbian:
+  icon: orange_dye
+  actions:
+    cast:
+    - class: PlayEffects
+      effect: pride
+      ignore_result: true
+  effects:
+    pride:
+    - class: EffectSingle
+      location: target
+      target_offset: 0,1.2,0
+      orient: true
+      effectlib:
+        class: Modified
+        iterations: 150
+        parameters:
+          size: max(0, (1 / 2) * 5 - 3) + 0.2
+        effect:
+          enable_rotation: true
+          class: ColoredImageEffect
+          fileName: https://i.imgur.com/kltafTC.png
+          stepX: 1
+          stepY: 1
+          transparency: true
+  parameters:
+    target: self
+    cooldown: 3000
+  enabled: true
+pride_flag_nb:
+  icon: white_dye
+  actions:
+    cast:
+    - class: PlayEffects
+      effect: pride
+      ignore_result: true
+  effects:
+    pride:
+    - class: EffectSingle
+      location: target
+      target_offset: 0,1.2,0
+      orient: true
+      effectlib:
+        class: Modified
+        iterations: 150
+        parameters:
+          size: max(0, (1 / 2) * 5 - 3) + 0.2
+        effect:
+          enable_rotation: true
+          class: ColoredImageEffect
+          fileName: https://i.imgur.com/0vpqMEd.png
+          stepX: 1
+          stepY: 1
+          transparency: true
+  parameters:
+    target: self
+    cooldown: 3000
+  enabled: true
+pride_flag_pan:
+  icon: yellow_dye
+  actions:
+    cast:
+    - class: PlayEffects
+      effect: pride
+      ignore_result: true
+  effects:
+    pride:
+    - class: EffectSingle
+      location: target
+      target_offset: 0,1.2,0
+      orient: true
+      effectlib:
+        class: Modified
+        iterations: 150
+        parameters:
+          size: max(0, (1 / 2) * 5 - 3) + 0.2
+        effect:
+          enable_rotation: true
+          class: ColoredImageEffect
+          fileName: https://i.imgur.com/3bLScqU.png
+          stepX: 1
+          stepY: 1
+          transparency: true
+  parameters:
+    target: self
+    cooldown: 3000
+  enabled: true
+pride_flag_trans:
+  icon: light_blue_dye
+  actions:
+    cast:
+    - class: PlayEffects
+      effect: pride
+      ignore_result: true
+  effects:
+    pride:
+    - class: EffectSingle
+      location: target
+      target_offset: 0,1.2,0
+      orient: true
+      effectlib:
+        class: Modified
+        iterations: 150
+        parameters:
+          size: max(0, (1 / 2) * 5 - 3) + 0.2
+        effect:
+          enable_rotation: true
+          class: ColoredImageEffect
+          fileName: https://i.imgur.com/PhcKuVx.png
+          stepX: 1
+          stepY: 1
+          transparency: true
+  parameters:
+    target: self
+    cooldown: 3000
+  enabled: true

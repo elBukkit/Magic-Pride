@@ -1,0 +1,39 @@
+pride_block_auto:
+  name: Pride Flag
+  interval: 7500
+  min_players: 1
+  player_range: 16
+  remove_when_broken: true
+  drop_when_removed: pride_block_wand
+  cast:
+    spells: pride_flag_base
+pride_block_auto_bi:
+  inherit: pride_block_auto
+  drop_when_removed: pride_block_wand_bi
+  cast:
+    spells: pride_flag_bi
+pride_block_auto_trans:
+  inherit: pride_block_auto
+  drop_when_removed: pride_block_wand_trans
+  cast:
+    spells: pride_flag_trans
+pride_block_auto_lesbian:
+  inherit: pride_block_auto
+  drop_when_removed: pride_block_wand_lesbian
+  cast:
+    spells: pride_flag_lesbian
+pride_block_auto_pan:
+  inherit: pride_block_auto
+  drop_when_removed: pride_block_wand_pan
+  cast:
+    spells: pride_flag_pan
+pride_block_auto_ace:
+  inherit: pride_block_auto
+  drop_when_removed: pride_block_wand_ace
+  cast:
+    spells: pride_flag_ace
+pride_block_auto_nb:
+  inherit: pride_block_auto
+  drop_when_removed: pride_block_wand_nb
+  cast:
+    spells: pride_flag_nb
