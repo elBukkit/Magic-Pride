@@ -293,6 +293,8 @@ pride_flag_trans:
 pride_shop:
   inherit: buyshop
   parameters:
+    confirm: true
+    auto_close: true
     items:
       - item: pride_block_wand
         costs:
