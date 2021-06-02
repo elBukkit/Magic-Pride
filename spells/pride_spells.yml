@@ -317,7 +317,7 @@ pride_shop:
           white_wool: 1
       - item: pride_flag_wand
         costs:
-          ia_amethyst_prism: 1
+          magicheart: 1
       - item: partyCannon
         costs:
           gunpowder: 2

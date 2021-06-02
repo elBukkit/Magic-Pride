@@ -4,6 +4,6 @@ pride_shop:
   villager_profession: librarian
   disguise:
     type: player
-    skin: cornelia
+    skin: Rainbow
   dialog:
     - Express yourself!
